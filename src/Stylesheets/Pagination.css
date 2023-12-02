@@ -1,0 +1,48 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pageButton {
+    padding: 7px 12px;
+    background-color: rgb(188, 191, 191);
+    border: 2px solid black;
+}
+
+@media only screen and (max-width:570px) {
+    .para {
+        font-size: 15px;
+    }
+
+    .pageButton {
+        padding: 4px 7px;
+        background-color: rgb(188, 191, 191);
+        border: 2px solid black;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .para {
+        font-size: 13px;
+    }
+
+    .pageButton {
+        padding: 4px 7px;
+        background-color: rgb(188, 191, 191);
+        border: 2px solid black;
+        font-size: 8px;
+        margin: -4px;
+    }
+}

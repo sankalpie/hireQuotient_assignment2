@@ -1,0 +1,36 @@
+.searchContainer
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    flex-wrap: wrap; */
+    justify-content: center;
+    margin: 10px ;
+}
+
+.searchButton
+{
+    margin-top: 5px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgb(149, 196, 237);
+    border-radius: 10px;
+}
+
+.deleteButton
+{
+    border: none;
+    padding: 10px;
+    background-color: rgb(237, 152, 149);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.searchInput
+{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}

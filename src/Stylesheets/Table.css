@@ -1,0 +1,55 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.editOrSave
+{
+    background-color: rgb(149, 196, 237);
+    margin-right: 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    float: left;
+}
+
+.delete
+{
+    background-color:rgb(237, 152, 149);
+    border-radius: 3px;
+    border:1px solid black;
+    float: right;
+}
+
+.selected-row {
+    background-color: rgb(211, 206, 206);
+  }
+  
+
+@media only screen and (max-width:575px)
+{
+    .delete
+    {
+        /* margin-top: 5px; */
+        float: left;
+    }
+    td
+    {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:530px)
+{
+    .delete
+    {
+        margin-top: 5px;
+    }
+}

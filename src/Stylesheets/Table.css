@@ -18,6 +18,7 @@ th {
     border-radius: 3px;
     border: 1px solid black;
     float: left;
+    cursor: pointer;
 }
 
 .delete
@@ -26,6 +27,7 @@ th {
     border-radius: 3px;
     border:1px solid black;
     float: right;
+    cursor: pointer;
 }
 
 .selected-row {

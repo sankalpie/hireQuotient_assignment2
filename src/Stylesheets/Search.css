@@ -17,6 +17,7 @@
     padding: 10px;
     background-color: rgb(149, 196, 237);
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .deleteButton

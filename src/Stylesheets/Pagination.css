@@ -19,6 +19,7 @@ li {
     padding: 7px 12px;
     background-color: rgb(188, 191, 191);
     border: 2px solid black;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:570px) {
